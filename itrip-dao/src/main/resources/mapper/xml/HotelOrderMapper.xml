@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xyh.mapper.HotelOrderMapper">
+  <resultMap id="BaseResultMap" type="com.xyh.entity.HotelOrder">
+    <!--@mbg.generated-->
+    <!--@Table itrip_hotel_order-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="userId" jdbcType="BIGINT" property="userid" />
+    <result column="orderType" jdbcType="INTEGER" property="ordertype" />
+    <result column="orderNo" jdbcType="VARCHAR" property="orderno" />
+    <result column="tradeNo" jdbcType="VARCHAR" property="tradeno" />
+    <result column="hotelId" jdbcType="BIGINT" property="hotelid" />
+    <result column="hotelName" jdbcType="VARCHAR" property="hotelname" />
+    <result column="roomId" jdbcType="BIGINT" property="roomid" />
+    <result column="count" jdbcType="INTEGER" property="count" />
+    <result column="bookingDays" jdbcType="INTEGER" property="bookingdays" />
+    <result column="checkInDate" jdbcType="TIMESTAMP" property="checkindate" />
+    <result column="checkOutDate" jdbcType="TIMESTAMP" property="checkoutdate" />
+    <result column="orderStatus" jdbcType="INTEGER" property="orderstatus" />
+    <result column="payAmount" jdbcType="DECIMAL" property="payamount" />
+    <result column="payType" jdbcType="INTEGER" property="paytype" />
+    <result column="noticePhone" jdbcType="VARCHAR" property="noticephone" />
+    <result column="noticeEmail" jdbcType="VARCHAR" property="noticeemail" />
+    <result column="specialRequirement" jdbcType="LONGVARCHAR" property="specialrequirement" />
+    <result column="isNeedInvoice" jdbcType="INTEGER" property="isneedinvoice" />
+    <result column="invoiceType" jdbcType="INTEGER" property="invoicetype" />
+    <result column="invoiceHead" jdbcType="VARCHAR" property="invoicehead" />
+    <result column="linkUserName" jdbcType="VARCHAR" property="linkusername" />
+    <result column="bookType" jdbcType="INTEGER" property="booktype" />
+    <result column="creationDate" jdbcType="TIMESTAMP" property="creationdate" />
+    <result column="createdBy" jdbcType="BIGINT" property="createdby" />
+    <result column="modifyDate" jdbcType="TIMESTAMP" property="modifydate" />
+    <result column="modifiedBy" jdbcType="BIGINT" property="modifiedby" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, userId, orderType, orderNo, tradeNo, hotelId, hotelName, roomId, `count`, bookingDays, 
+    checkInDate, checkOutDate, orderStatus, payAmount, payType, noticePhone, noticeEmail, 
+    specialRequirement, isNeedInvoice, invoiceType, invoiceHead, linkUserName, bookType, 
+    creationDate, createdBy, modifyDate, modifiedBy
+  </sql>
+</mapper>

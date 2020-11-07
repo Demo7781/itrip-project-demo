@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xyh.mapper.UserLinkUserMapper">
+  <resultMap id="BaseResultMap" type="com.xyh.entity.UserLinkUser">
+    <!--@mbg.generated-->
+    <!--@Table itrip_user_link_user-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="linkUserName" jdbcType="VARCHAR" property="linkusername" />
+    <result column="linkIdCard" jdbcType="VARCHAR" property="linkidcard" />
+    <result column="linkPhone" jdbcType="VARCHAR" property="linkphone" />
+    <result column="userId" jdbcType="INTEGER" property="userid" />
+    <result column="creationDate" jdbcType="TIMESTAMP" property="creationdate" />
+    <result column="createdBy" jdbcType="BIGINT" property="createdby" />
+    <result column="modifyDate" jdbcType="TIMESTAMP" property="modifydate" />
+    <result column="modifiedBy" jdbcType="BIGINT" property="modifiedby" />
+    <result column="linkIdCardType" jdbcType="INTEGER" property="linkidcardtype" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, linkUserName, linkIdCard, linkPhone, userId, creationDate, createdBy, modifyDate, 
+    modifiedBy, linkIdCardType
+  </sql>
+</mapper>

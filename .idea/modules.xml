@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/itrip-beans/itrip-beans.iml" filepath="$PROJECT_DIR$/itrip-beans/itrip-beans.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itrip-dao/itrip-dao.iml" filepath="$PROJECT_DIR$/itrip-dao/itrip-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/itrip-project-demo.iml" filepath="$PROJECT_DIR$/itrip-project-demo.iml" />
+    </modules>
+  </component>
+</project>

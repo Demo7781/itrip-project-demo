@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xyh.mapper.HotelRoomMapper">
+  <resultMap id="BaseResultMap" type="com.xyh.entity.HotelRoom">
+    <!--@mbg.generated-->
+    <!--@Table itrip_hotel_room-->
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="hotelId" jdbcType="BIGINT" property="hotelid" />
+    <result column="roomTitle" jdbcType="VARCHAR" property="roomtitle" />
+    <result column="roomPrice" jdbcType="DECIMAL" property="roomprice" />
+    <result column="roomBedTypeId" jdbcType="BIGINT" property="roombedtypeid" />
+    <result column="isHavingBreakfast" jdbcType="INTEGER" property="ishavingbreakfast" />
+    <result column="payType" jdbcType="INTEGER" property="paytype" />
+    <result column="satisfaction" jdbcType="DECIMAL" property="satisfaction" />
+    <result column="isBook" jdbcType="INTEGER" property="isbook" />
+    <result column="isCancel" jdbcType="INTEGER" property="iscancel" />
+    <result column="isTimelyResponse" jdbcType="INTEGER" property="istimelyresponse" />
+    <result column="creationDate" jdbcType="TIMESTAMP" property="creationdate" />
+    <result column="createdBy" jdbcType="BIGINT" property="createdby" />
+    <result column="modifyDate" jdbcType="TIMESTAMP" property="modifydate" />
+    <result column="modifiedBy" jdbcType="BIGINT" property="modifiedby" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, hotelId, roomTitle, roomPrice, roomBedTypeId, isHavingBreakfast, payType, satisfaction, 
+    isBook, isCancel, isTimelyResponse, creationDate, createdBy, modifyDate, modifiedBy
+  </sql>
+</mapper>
